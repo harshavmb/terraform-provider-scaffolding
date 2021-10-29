@@ -52,6 +52,10 @@ artifactories:
     target: https://repository.rnd.amadeus.net/generic-production-stufop/providers/{{ .ProjectName }}/{{ .Version }}/
     #target: http://<Your-Instance>:8081/artifactory/example-repo-local/{{ .ProjectName }}/{{ .Version }}/
     username: app-muc-fop
+    # Upload checksums (defaults to false)
+    checksum: true
+    # Upload signatures (defaults to false)
+    signature: true
 release:
   # If you want to manually examine the release before its live, uncomment this line:
   # draft: true
