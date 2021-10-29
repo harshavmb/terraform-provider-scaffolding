@@ -47,6 +47,11 @@ signs:
       - "${signature}"
       - "--detach-sign"
       - "${artifact}"
+artifactories:
+  - name: production
+    target: https://repository.adp.amadeus.net/generic-production-stufop/providers/{{ .ProjectName }}/{{ .Version }}/
+    #target: http://<Your-Instance>:8081/artifactory/example-repo-local/{{ .ProjectName }}/{{ .Version }}/
+    username: app-muc-fop
 release:
   # If you want to manually examine the release before its live, uncomment this line:
   # draft: true
