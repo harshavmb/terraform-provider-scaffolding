@@ -56,7 +56,7 @@ artifactories:
     checksum: true
     # Upload signatures (defaults to false)
     signature: true
-release:
+#release:
   # If you want to manually examine the release before its live, uncomment this line:
   # draft: true
 changelog:
