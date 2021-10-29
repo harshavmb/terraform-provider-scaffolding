@@ -49,7 +49,7 @@ signs:
       - "${artifact}"
 artifactories:
   - name: production
-    target: https://repository.adp.amadeus.net/generic-production-stufop/providers/{{ .ProjectName }}/{{ .Version }}/
+    target: https://repository.rnd.amadeus.net/generic-production-stufop/providers/{{ .ProjectName }}/{{ .Version }}/
     #target: http://<Your-Instance>:8081/artifactory/example-repo-local/{{ .ProjectName }}/{{ .Version }}/
     username: app-muc-fop
 release:
